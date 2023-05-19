@@ -1,0 +1,17 @@
+{
+    "action_input_default_values": [],
+    "base_action_name": "take-snapshot (1)",
+    "dangerous": false,
+    "dialog_message": "",
+    "enabled": true,
+    "extra_classes": "fas fa-camera",
+    "id": "RSA-2kcclsc1",
+    "is_synchronous": false,
+    "label": "Take Snapshot (1)",
+    "last_updated": "2023-05-19",
+    "list_view_visible": true,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "requires_approval": false,
+    "submit_button_label": ""
+}

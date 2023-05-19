@@ -1,0 +1,17 @@
+{
+    "action_input_default_values": [],
+    "base_action_name": "list-snapshots (1)",
+    "dangerous": false,
+    "dialog_message": "Discover snapshots associated with this EBS Storage",
+    "enabled": true,
+    "extra_classes": "fas fa-sync",
+    "id": "RSA-7jgn2z75",
+    "is_synchronous": false,
+    "label": "Discover Snapshots (1)",
+    "last_updated": "2023-05-19",
+    "list_view_visible": true,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "requires_approval": false,
+    "submit_button_label": ""
+}

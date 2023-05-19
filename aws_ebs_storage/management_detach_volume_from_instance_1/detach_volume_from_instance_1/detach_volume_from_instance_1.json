@@ -1,0 +1,17 @@
+{
+    "action_input_default_values": [],
+    "base_action_name": "detach-volume-from-instance (1)",
+    "dangerous": false,
+    "dialog_message": "",
+    "enabled": true,
+    "extra_classes": "fas fa-unlink",
+    "id": "RSA-s5z5yupj",
+    "is_synchronous": false,
+    "label": "Detach Volume From Instance (1)",
+    "last_updated": "2023-05-19",
+    "list_view_visible": true,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "requires_approval": false,
+    "submit_button_label": ""
+}

@@ -1,0 +1,14 @@
+{
+    "description": "Create a snapshot of an EBS volume and stores it in Amazon S3.",
+    "id": "OHK-d9g1uc1q",
+    "last_updated": "2023-05-19",
+    "max_retries": 0,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "take-snapshot (1)",
+    "resource_technologies": [],
+    "script_filename": "cb_plugin_1656590207921316_kXyeA4T_dkOzTO2.py",
+    "shared": false,
+    "target_os_families": [],
+    "type": "CloudBolt Plug-in"
+}

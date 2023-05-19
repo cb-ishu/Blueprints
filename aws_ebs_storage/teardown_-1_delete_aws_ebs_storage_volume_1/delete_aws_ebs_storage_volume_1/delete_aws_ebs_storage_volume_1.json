@@ -1,0 +1,16 @@
+{
+    "description": "",
+    "id": "OHK-nyfo8jvv",
+    "last_updated": "2023-05-19",
+    "max_retries": 0,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "Delete AWS EBS Storage Volume (1)",
+    "resource_technologies": [
+        "Amazon Web Services"
+    ],
+    "script_filename": "cb_plugin_1656591407868355_htcuik1_RoA0cMT_pDRadDo_v7FyfTd_di5vYvm.py",
+    "shared": false,
+    "target_os_families": [],
+    "type": "CloudBolt Plug-in"
+}
