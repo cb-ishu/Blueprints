@@ -1,0 +1,17 @@
+{
+    "action_input_default_values": [],
+    "base_action_name": "Stop PostgreSQL Database",
+    "dangerous": false,
+    "dialog_message": "",
+    "enabled": true,
+    "extra_classes": "glyphicon glyphicon-stop",
+    "id": "RSA-bg85vlxj",
+    "is_synchronous": false,
+    "label": "Stop PostgreSQL Database",
+    "last_updated": "2023-10-20",
+    "list_view_visible": true,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "requires_approval": false,
+    "submit_button_label": ""
+}

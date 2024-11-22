@@ -1,0 +1,113 @@
+{
+    "any_group_can_deploy": true,
+    "auto_historical_resources": false,
+    "deployment_items": [
+        {
+            "action_name": "Create AWS PostgreSQL Database",
+            "continue_on_failure": false,
+            "deploy_seq": 1,
+            "description": "This plugin will create a PostgreSQL Database on AWS Cloud and resource on the CMP Instance.",
+            "enabled": true,
+            "enabled_environments": [],
+            "execute_in_parallel": false,
+            "id": "BDI-i3cey4p7",
+            "name": "Create AWS PostgreSQL Database",
+            "run_on_scale_up": true,
+            "show_on_order_form": true,
+            "tier_type": "plugin"
+        }
+    ],
+    "description": "Create, delete and synchronize AWS PostgreSQL Database Instance",
+    "discovery_plugin": {
+        "href": "/api/v3/cmp/actions/OHK-y4t8shdg/",
+        "title": "Sync AWS PostgreSQL Database"
+    },
+    "favorited": false,
+    "icon": "aws_psql_swAAdHR.png",
+    "id": "BP-zjwb4qb6",
+    "is_manageable": true,
+    "is_orderable": true,
+    "labels": [
+        {
+            "color": null,
+            "id": "TAG-6spb5ltg",
+            "image": null,
+            "name": "AWS",
+            "parent": {
+                "color": null,
+                "id": "TAG-rgqwsw74",
+                "image": null,
+                "name": "Technology Type",
+                "sequence": 0
+            },
+            "sequence": 0
+        },
+        {
+            "color": null,
+            "id": "TAG-slf059e8",
+            "image": null,
+            "name": "PostgreSQL",
+            "parent": {
+                "color": null,
+                "id": "TAG-fpdjl8eu",
+                "image": null,
+                "name": "Databases",
+                "parent": {
+                    "color": null,
+                    "id": "TAG-d7rehwzt",
+                    "image": null,
+                    "name": "Public Cloud Services",
+                    "sequence": 0
+                },
+                "sequence": 0
+            },
+            "sequence": 0
+        }
+    ],
+    "last_updated": "2023-10-20",
+    "management_actions": [
+        {
+            "enabled": true,
+            "label": "Refresh PostgreSQL Database Connection Info"
+        },
+        {
+            "enabled": true,
+            "label": "Start PostgreSQL Database"
+        },
+        {
+            "enabled": true,
+            "label": "Stop PostgreSQL Database"
+        }
+    ],
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "AWS PostgreSQL",
+    "resource_name_template": null,
+    "resource_type": {
+        "icon": "fas fa-database",
+        "id": "RT-h0npsxst",
+        "label": "Database",
+        "lifecycle": "ACTIVE",
+        "list_view_columns": [],
+        "name": "database",
+        "plural_label": null
+    },
+    "sequence": 0,
+    "show_recipient_field_on_order_form": false,
+    "teardown_items": [
+        {
+            "action_name": "Delete AWS PostgreSQL Database",
+            "continue_on_failure": false,
+            "deploy_seq": 2,
+            "description": "This plugin will delete a PostgreSQL Database from AWS Cloud and resource from the CMP Instance.",
+            "enabled": true,
+            "enabled_environments": [],
+            "execute_in_parallel": false,
+            "id": "BDI-fze7kisb",
+            "name": "Delete AWS PostgreSQL Database",
+            "run_on_scale_up": true,
+            "show_on_order_form": true,
+            "tier_type": "teardown_plugin"
+        }
+    ]
+}
