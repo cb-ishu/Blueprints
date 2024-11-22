@@ -1,0 +1,14 @@
+{
+    "description": "",
+    "id": "OHK-7dyh8ivu",
+    "last_updated": "2022-10-13",
+    "max_retries": 0,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "sync gke cluster",
+    "resource_technologies": [],
+    "script_filename": "sync gke cluster Script.py",
+    "shared": false,
+    "target_os_families": [],
+    "type": "CloudBolt Plug-in"
+}

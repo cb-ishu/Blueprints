@@ -1,0 +1,17 @@
+{
+    "action_input_default_values": [],
+    "base_action_name": "Refresh  PostgreSQL Database Connection Info",
+    "dangerous": false,
+    "dialog_message": "",
+    "enabled": true,
+    "extra_classes": "fas fa-sync",
+    "id": "RSA-nbsf4y8q",
+    "is_synchronous": false,
+    "label": "Refresh PostgreSQL Database Connection Info",
+    "last_updated": "2023-10-20",
+    "list_view_visible": true,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "requires_approval": false,
+    "submit_button_label": ""
+}

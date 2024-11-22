@@ -1,0 +1,76 @@
+{
+    "any_group_can_deploy": false,
+    "auto_historical_resources": false,
+    "blueprint_image": "/static/uploads/blueprints/google_kubernetes_cluster_engine.png",
+    "deployment_items": [
+        {
+            "action_name": "Create GKE Cluster",
+            "continue_on_failure": false,
+            "deploy_seq": 1,
+            "description": null,
+            "enabled_environments": [],
+            "execute_in_parallel": false,
+            "id": "BDI-7f4zpmxz",
+            "name": "Create GKE Cluster",
+            "run_on_scale_up": true,
+            "show_on_order_form": true,
+            "tier_type": "plugin"
+        }
+    ],
+    "description": "Provisions a Kubernetes cluster into an existing Google Compute Engine environment using Google Kubernetes Engine. The cluster will be imported as a Container Orchestrator, and the nodes as Servers.\r\n\r\nTo use this Blueprint, make sure that the account used by your Resource Handler has Kubernetes Engine Admin permission. If you do not know which account to give permissions to, run this BP once and check the action's logs after execution.",
+    "discovery_plugin": {
+        "href": "/api/v3/cmp/actions/OHK-7dyh8ivu/",
+        "title": "sync gke cluster"
+    },
+    "favorited": false,
+    "icon": "google_kubernetes_cluster_engine.png",
+    "id": "BP-5eeowij2",
+    "is_manageable": true,
+    "is_orderable": true,
+    "labels": [
+        {
+            "model_name": "serviceblueprint",
+            "name": "GCP",
+            "parent": {
+                "model-name": "serviceblueprint",
+                "name": "Technology Type"
+            }
+        },
+        {
+            "model_name": "serviceblueprint",
+            "name": "Kubernetes"
+        }
+    ],
+    "last_updated": "2022-10-13",
+    "management_actions": [],
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "Google Kubernetes Engine Cluster",
+    "resource_name_template": "",
+    "resource_type": {
+        "icon": "",
+        "id": "RT-r3ygzyj0",
+        "label": "Service",
+        "lifecycle": "ACTIVE",
+        "list_view_columns": [],
+        "name": "service",
+        "plural_label": null
+    },
+    "sequence": 0,
+    "show_recipient_field_on_order_form": false,
+    "teardown_items": [
+        {
+            "action_name": "Delete GKE Cluster",
+            "continue_on_failure": false,
+            "deploy_seq": 2,
+            "description": null,
+            "enabled_environments": [],
+            "execute_in_parallel": false,
+            "id": "BDI-qwpp4kck",
+            "name": "Delete GKE Cluster",
+            "run_on_scale_up": true,
+            "show_on_order_form": true,
+            "tier_type": "teardown_plugin"
+        }
+    ]
+}
