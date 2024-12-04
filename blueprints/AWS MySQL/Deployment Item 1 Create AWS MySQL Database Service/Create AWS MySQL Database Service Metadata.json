@@ -8,12 +8,12 @@
             "field_dependency_dependent_set": [
                 {
                     "controlling-field": {
-                        "name": "aws_region_a180"
+                        "name": "aws_region_a236"
                     },
                     "custom-field-options": [],
                     "dependency-type": "REGENOPTIONS",
                     "dependent-field": {
-                        "name": "db_engine_version_a180"
+                        "name": "db_engine_version_a236"
                     },
                     "maximum": null,
                     "minimum": null,
@@ -22,6 +22,7 @@
             ],
             "global_options": [],
             "hide_if_default_value": false,
+            "id": "CF-iqrvp8o8",
             "label": "Environment",
             "name": "aws_region",
             "placeholder": null,
@@ -39,12 +40,12 @@
             "field_dependency_controlling_set": [
                 {
                     "controlling-field": {
-                        "name": "aws_region_a180"
+                        "name": "aws_region_a236"
                     },
                     "custom-field-options": [],
                     "dependency-type": "REGENOPTIONS",
                     "dependent-field": {
-                        "name": "db_engine_version_a180"
+                        "name": "db_engine_version_a236"
                     },
                     "maximum": null,
                     "minimum": null,
@@ -54,12 +55,12 @@
             "field_dependency_dependent_set": [
                 {
                     "controlling-field": {
-                        "name": "db_engine_version_a180"
+                        "name": "db_engine_version_a236"
                     },
                     "custom-field-options": [],
                     "dependency-type": "REGENOPTIONS",
                     "dependent-field": {
-                        "name": "instance_class_a180"
+                        "name": "instance_class_a236"
                     },
                     "maximum": null,
                     "minimum": null,
@@ -68,6 +69,7 @@
             ],
             "global_options": [],
             "hide_if_default_value": false,
+            "id": "CF-c7y3pg25",
             "label": "Database Engine Version",
             "name": "db_engine_version",
             "placeholder": null,
@@ -86,6 +88,7 @@
             "field_dependency_dependent_set": [],
             "global_options": [],
             "hide_if_default_value": false,
+            "id": "CF-w915pp3p",
             "label": "Database Identifier",
             "maximum": "60.00",
             "minimum": "1.00",
@@ -106,6 +109,7 @@
             "field_dependency_dependent_set": [],
             "global_options": [],
             "hide_if_default_value": false,
+            "id": "CF-7r6fv39q",
             "label": "Database Password",
             "minimum": "8.00",
             "name": "db_password",
@@ -125,6 +129,7 @@
             "field_dependency_dependent_set": [],
             "global_options": [],
             "hide_if_default_value": false,
+            "id": "CF-fblf3jak",
             "label": "Database Username",
             "maximum": "16.00",
             "minimum": "1.00",
@@ -144,12 +149,12 @@
             "field_dependency_controlling_set": [
                 {
                     "controlling-field": {
-                        "name": "db_engine_version_a180"
+                        "name": "db_engine_version_a236"
                     },
                     "custom-field-options": [],
                     "dependency-type": "REGENOPTIONS",
                     "dependent-field": {
-                        "name": "instance_class_a180"
+                        "name": "instance_class_a236"
                     },
                     "maximum": null,
                     "minimum": null,
@@ -159,6 +164,7 @@
             "field_dependency_dependent_set": [],
             "global_options": [],
             "hide_if_default_value": false,
+            "id": "CF-gw566iuh",
             "label": "Instance Class",
             "name": "instance_class",
             "placeholder": null,
@@ -180,7 +186,7 @@
     ],
     "description": "",
     "id": "OHK-76gh90ro",
-    "last_updated": "2023-10-19",
+    "last_updated": "2024-12-04",
     "max_retries": 0,
     "maximum_version_required": "",
     "minimum_version_required": "8.6",
