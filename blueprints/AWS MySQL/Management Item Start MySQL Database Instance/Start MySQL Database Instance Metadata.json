@@ -1,5 +1,6 @@
 {
     "action_input_default_values": [],
+    "auto_submit_order": false,
     "base_action_name": "Start MySQL Database Instance",
     "dangerous": false,
     "dialog_message": "",
@@ -8,10 +9,12 @@
     "id": "RSA-qguvr7k7",
     "is_synchronous": false,
     "label": "Start MySQL Database Instance",
-    "last_updated": "2023-10-19",
+    "last_updated": "2024-12-04",
     "list_view_visible": true,
     "maximum_version_required": "",
     "minimum_version_required": "8.6",
+    "new_tab_url": null,
     "requires_approval": false,
+    "sequence": null,
     "submit_button_label": ""
 }

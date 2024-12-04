@@ -8,7 +8,6 @@
             "deploy_seq": 1,
             "description": "This plugin will create a MySQL Database on AWS Cloud and resource on the CMP Instance.",
             "enabled": true,
-            "enabled_environments": [],
             "execute_in_parallel": false,
             "id": "BDI-nlnth1rk",
             "name": "Create AWS MySQL Database Service",
@@ -44,7 +43,7 @@
         },
         {
             "color": null,
-            "id": "TAG-8kys5183",
+            "id": "TAG-xpytx5rl",
             "image": null,
             "name": "MySQL",
             "parent": {
@@ -64,7 +63,7 @@
             "sequence": 0
         }
     ],
-    "last_updated": "2023-10-19",
+    "last_updated": "2024-12-04",
     "management_actions": [
         {
             "enabled": true,
@@ -101,7 +100,6 @@
             "deploy_seq": 2,
             "description": "This plugin will delete a MySQL Database from AWS Cloud and resource from the CMP Instance.",
             "enabled": true,
-            "enabled_environments": [],
             "execute_in_parallel": false,
             "id": "BDI-xo3xsopu",
             "name": "Delete AWS MySQL Database Service",
