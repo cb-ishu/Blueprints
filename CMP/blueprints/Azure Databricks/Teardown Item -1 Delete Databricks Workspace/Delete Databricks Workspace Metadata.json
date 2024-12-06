@@ -1,0 +1,14 @@
+{
+    "description": "",
+    "id": "OHK-6157xc6d",
+    "last_updated": "2024-12-06",
+    "max_retries": 0,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "Delete Databricks Workspace",
+    "resource_technologies": [],
+    "script_filename": "Delete Databricks Workspace Script.py",
+    "shared": false,
+    "target_os_families": [],
+    "type": "CloudBolt Plug-in"
+}
